@@ -10,7 +10,7 @@ name:                cl3-hmatrix-interface
 -- PVP summary:      +-+------- breaking API changes
 --                   | | +----- non-breaking API additions
 --                   | | | +--- code changes with no API change
-version:             1.0.0.0
+version:             1.0.0.1
 
 -- A short (one-line) description of the package.
 synopsis:            Interface to/from Cl3 and HMatrix.
@@ -69,8 +69,8 @@ library
   
   -- Other library packages from which modules are imported.
   build-depends:       
-    base >=4.8 && <5,
-    cl3 >=1.0 && <2,
+    base >=4.7 && <5,
+    cl3 >=1.0.0.2 && <2,
     hmatrix >=0.16 && <1
   
   -- Directories containing source files.
